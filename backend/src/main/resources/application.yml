@@ -5,9 +5,10 @@ spring:
   application:
     name: skillswap
   datasource:
-    url: jdbc:postgresql://localhost:5432/skillswap
-    username: postgres
-    password: sai
+    url:
+    ${DB_URL : jdbc:postgresql://localhost:5432/skillswap}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:sai}
   jpa:
     hibernate:
       ddl-auto: update
