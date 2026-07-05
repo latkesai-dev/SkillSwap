@@ -22,9 +22,9 @@ Built using **Spring Boot**, **React**, **PostgreSQL**, **Spring Security**, **J
 
 # 🌐 Live Demo
 
-**Frontend:** *(Coming Soon – Vercel)*
+**Frontend:** https://skill-swap-alpha-amber.vercel.app
 
-**Backend API:** *(Coming Soon – Render)*
+**Backend API:** https://skillswap-hp24.onrender.com
 
 **Database:** Neon PostgreSQL
 
